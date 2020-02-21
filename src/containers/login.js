@@ -61,7 +61,7 @@ class Login extends Component {
                             </div>
                             <input type="text" name="" placeholder="Phone No" required=""></input>
                             <input type="password" name="" placeholder="Password" required=""></input>
-                                    <button className="btn-com">SIGN IN</button>
+                                    <button className="btn-com"><Link to="/dashboard" className="cl-white" value="dashboard">SIGN IN</Link></button>
                                     <button className="btn-com"><Link to="/register" className="cl-white" value="register">REGISTER</Link></button>
                         </div>
                     </div>
