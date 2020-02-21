@@ -145,9 +145,13 @@ input:focus {
 .history-tab li {
     float: left;
     width: 50%;
-    padding: 15px;
     text-align: center;
     background: #ffc107bf;
+}
+.history-tab li a {
+    display: block;
+    width: 100%;
+    padding: 15px;
     color: #fff;
 }
 .order-list .order {
