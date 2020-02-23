@@ -35,9 +35,9 @@ input:focus {
 .row {
     margin: 0 !important;
 }
-.fas {
-    font-size: 1.3em;
-    padding: 2px 8px;
+.icon {
+    padding: 0 10px;
+    font-size: 1.2rem;
 }
 .login-icon img {
     width: 150px;
@@ -55,7 +55,8 @@ input:focus {
     display: block;
 }
 .orange {
-    padding: 8px 0;
+    margin-bottom: 20px;
+    padding: 8px 0 14px 0;
     text-align: center;
     background: #ffc107bf;
     color: #fff;
@@ -79,6 +80,9 @@ input:focus {
     background-color: #ffc107bf;
     color: #fff;
     border: 0;
+}
+.btn-com a {
+    display: block;
 }
 .cl-white {
     color: #fff;
@@ -125,6 +129,8 @@ input:focus {
 .add-cart {
     margin-top: .5em;
     margin-right: .5em;
+    font-size: 1.2rem;
+    padding: 0 8px;
 }
 .category .min-qty {
     padding: .5em;
@@ -195,9 +201,13 @@ input:focus {
 .max-qty .qty {
     display: inline-block;
     width: 40px;
-    background: #ddd;
+    background: #ddd;    font-size: 1.2rem;
+    padding: 0 5px;
     text-align: center;
     border-radius: 2px;
+}
+.max-qty .minus ,.max-qty .plus {
+    padding: 8px;
 }
 .btn-com.btn-cart {
     position: absolute;

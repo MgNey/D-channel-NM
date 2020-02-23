@@ -1,7 +1,7 @@
 import React,{ Component } from 'react';
 import dchannel from "../img/dchannel.jpg";
 import {Link} from "react-router-dom";
-
+import { FaLongArrowAltLeft,FaMinus,FaPlus } from 'react-icons/fa';
 class Form extends Component{
     render() {
         return(
@@ -9,7 +9,7 @@ class Form extends Component{
             <div className="wrap">
                 <div className="container">
                     <div className="login">
-                        <p className="orange">FORM</p>
+                        <p className="orange"><Link to="/register" className="cl-white" value="register"><span className="icon float-left"><FaLongArrowAltLeft/></span></Link>FORM</p>
                         <div className="form">
                             <input type="text" name="" placeholder="Name" required=""></input>
                             <input type="email" name="" placeholder="Email" required=""></input>

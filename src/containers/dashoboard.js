@@ -2,7 +2,8 @@ import React,{ Component } from 'react';
 import coffee from "../img/coffee.jpg";
 import shwePheoo from "../img/shwe_pheoo.jpg";
 import {Link} from "react-router-dom";
-
+import { FaLongArrowAltLeft,FaMinus,FaPlus,FaCartPlus } from 'react-icons/fa';
+import { MdSettings,MdHistory,MdShoppingCart } from 'react-icons/md';
 class Dashoboard extends Component{
     render() {
         return(
@@ -10,11 +11,11 @@ class Dashoboard extends Component{
                 <div className="container">
                     <div className="dashboard">
                         <div className="menu">
-                            <p className="m-lf"><span><i className="fas fa-user-cog"></i><Link to="/profile" className="cl-black" value="profile">Profile</Link></span><span>D Channel</span>
+                            <p className="m-lf"><span className="icon"><Link to="/profile" className="cl-black" value="profile"><MdSettings /></Link></span><span>D Channel</span>
                             </p>
                             <div className="m-rg">
-                                <span><Link to="/history" className="cl-black" value="history"><i className="fas fa-history"></i>Hostory</Link></span>
-                                <span className="cart"><i className="fas fa-shopping-cart"></i><Link to="/shoppingCart" className="cl-black" value="shohppingCart">Cart</Link></span>
+                                <span className="icon"><Link to="/history" className="cl-black" value="history"><MdHistory /></Link></span>
+                                <span className="cart icon"><Link to="/shoppingCart" className="cl-black" value="shohppingCart"><MdShoppingCart /></Link></span>
                             </div>
                         </div>
                         <div className="main">
@@ -36,8 +37,9 @@ class Dashoboard extends Component{
                                                     <span>coffee</span><br/>
                                                     <span className="prize">2000</span>
                                                 </p>
-                                                <span className="float-right add-cart"><i
-                                                    className="fas fa-cart-plus"></i></span>
+                                                <span className="float-right add-cart">
+                                                    <FaCartPlus/>
+                                                </span>
                                             </div>
                                         </div>
                                         <div className="col-md-4 col-6 pt-1">
@@ -51,8 +53,9 @@ class Dashoboard extends Component{
                                                     <span>coffee</span><br/>
                                                     <span className="prize">2000</span>
                                                 </p>
-                                                <span className="float-right add-cart"><i
-                                                    className="fas fa-cart-plus"></i></span>
+                                                <span className="float-right add-cart">
+                                                    <FaCartPlus/>
+                                                </span>
                                             </div>
                                         </div>
                                         <div className="col-md-4 col-6 pt-1">
@@ -66,8 +69,9 @@ class Dashoboard extends Component{
                                                     <span>coffee</span><br/>
                                                     <span className="prize">2000</span>
                                                 </p>
-                                                <span className="float-right add-cart"><i
-                                                    className="fas fa-cart-plus"></i></span>
+                                                <span className="float-right add-cart">
+                                                    <FaCartPlus/>
+                                                </span>
                                             </div>
                                         </div>
                                     </div>
@@ -91,8 +95,9 @@ class Dashoboard extends Component{
                                                     <span>coffee</span><br/>
                                                     <span className="prize">2000</span>
                                                 </p>
-                                                <span className="float-right add-cart"><i
-                                                    className="fas fa-cart-plus"></i></span>
+                                                <span className="float-right add-cart">
+                                                    <FaCartPlus/>
+                                                </span>
                                             </div>
                                         </div>
                                         <div className="col-md-4 col-6 pt-1">
@@ -106,8 +111,9 @@ class Dashoboard extends Component{
                                                     <span>coffee</span><br/>
                                                     <span className="prize">2000</span>
                                                 </p>
-                                                <span className="float-right add-cart"><i
-                                                    className="fas fa-cart-plus"></i></span>
+                                                <span className="float-right add-cart">
+                                                    <FaCartPlus/>
+                                                </span>
                                             </div>
                                         </div>
                                         <div className="col-md-4 col-6 pt-1">
@@ -121,8 +127,9 @@ class Dashoboard extends Component{
                                                     <span>coffee</span><br/>
                                                     <span className="prize">2000</span>
                                                 </p>
-                                                <span className="float-right add-cart"><i
-                                                    className="fas fa-cart-plus"></i></span>
+                                                <span className="float-right add-cart">
+                                                    <FaCartPlus/>
+                                                </span>
                                             </div>
                                         </div>
                                     </div>

@@ -3,7 +3,7 @@ import coffee from "../img/coffee.jpg";
 import shwePheoo from "../img/shwe_pheoo.jpg";
 import {Link} from "react-router-dom";
 import profile from '../img/profile.jpg';
-
+import { FaLongArrowAltLeft,FaMinus,FaPlus } from 'react-icons/fa';
 class OrderDetail extends Component{
     render() {
         return(
@@ -11,7 +11,7 @@ class OrderDetail extends Component{
                 <div className="container">
                     <div className="dashboard">
                         <div className="menu text-center">
-                            <p className="m-lf"><span className="float-left"><i className="fas fa-user-cog"></i><Link to="/history" className="cl-black" value="history">Back</Link></span><span>Order Detail</span>
+                            <p className="m-lf"><span className="float-left"><Link to="/history" className="cl-white icon" value="history"><FaLongArrowAltLeft/></Link></span><span>Order Detail</span>
                             </p>
                         </div>
                         <div className="main">

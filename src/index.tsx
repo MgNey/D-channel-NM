@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 // import './all.css';
 import './reset.css';
 import './index.css';
+
+// import 'font-awesome/css/font-awesome.min.css';
 import App from './App';
 // import Login from './containers/login';
 // import Dashboard  from './containers/dashboard';

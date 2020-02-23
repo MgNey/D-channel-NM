@@ -2,6 +2,7 @@ import React,{ Component } from 'react';
 import coffee from "../img/coffee.jpg";
 import shwePheoo from "../img/shwe_pheoo.jpg";
 import {Link} from "react-router-dom";
+import { FaLongArrowAltLeft,FaMinus,FaPlus } from 'react-icons/fa';
 import profile from '../img/profile.jpg';
 
 class History extends Component{
@@ -12,7 +13,7 @@ class History extends Component{
                     <div className="dashboard">
                         <div className="menu text-center">
                             <p className="m-lf">
-                                <span className="float-left"><Link to="/dashboard" className="cl-black" value="dashoboard"><i className="fas fa-arrow-left"></i>Back</Link></span>
+                                <span className="float-left"><Link to="/dashboard" className="cl-white icon" value="dashoboard"><FaLongArrowAltLeft/></Link></span>
                                 <span>History</span></p>
                         </div>
                         <div className="main">

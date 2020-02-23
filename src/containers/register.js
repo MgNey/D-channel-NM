@@ -1,7 +1,7 @@
 import React,{ Component } from 'react';
 import dchannel from "../img/dchannel.jpg";
 import {Link} from "react-router-dom";
-
+import { FaLongArrowAltLeft,FaMinus,FaPlus } from 'react-icons/fa';
 class Register extends Component{
     render() {
         return(
@@ -9,7 +9,9 @@ class Register extends Component{
             <div className="wrap">
                 <div className="container">
                     <div className="login">
-                        <p className="orange none">Register</p>
+                        <p className="orange">
+                            <Link to="/login" className="cl-white" value="register"><span className="icon float-left"><FaLongArrowAltLeft/></span></Link>
+                            Register</p>
                         <div className="form">
                             <div className="login-icon text-center">
                                 <img src={dchannel} alt="dchannel"/>

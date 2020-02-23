@@ -3,6 +3,7 @@ import coffee from "../img/coffee.jpg";
 import shwePheoo from "../img/shwe_pheoo.jpg";
 import {Link} from "react-router-dom";
 import profile from '../img/profile.jpg';
+import { FaLongArrowAltLeft,FaMinus,FaPlus } from 'react-icons/fa';
 
 class ShoppinCart extends Component{
     render() {
@@ -11,7 +12,7 @@ class ShoppinCart extends Component{
                 <div className="container">
                     <div className="dashboard">
                         <div className="menu text-center">
-                            <p className="m-lf"><span className="float-left"><i className="fas fa-user-cog"></i><Link to="/dashboard" className="cl-black" value="dashoboard">Back</Link></span><span>Shopping Cart</span>
+                            <p className="m-lf"><span className="float-left"><Link to="/dashboard" className="cl-white icon" value="dashoboard"><FaLongArrowAltLeft/></Link></span><span>Shopping Cart</span>
                             </p>
                         </div>
                         <div className="main">
@@ -27,9 +28,9 @@ class ShoppinCart extends Component{
                                             <div className="max-qty">
                                                 <p className="price float-left">Ks - 30000</p>
                                                 <p className="add-qty float-right">
-                                                    <span className="minus"><i className="fas fa-minus"></i></span>
+                                                    <span className="minus"><FaMinus/></span>
                                                     <span className="qty"> 2 </span>
-                                                    <span className="plus"><i className="fas fa-plus"></i></span>
+                                                    <span className="plus"><FaPlus/></span>
                                                 </p>
                                             </div>
                                         </div>
@@ -44,9 +45,9 @@ class ShoppinCart extends Component{
                                             <div className="max-qty">
                                                 <p className="price float-left">Ks - 30000</p>
                                                 <p className="add-qty float-right">
-                                                    <span className="minus"><i className="fas fa-minus"></i></span>
-                                                    <span className="qty"> 2 </span>
-                                                    <span className="plus"><i className="fas fa-plus"></i></span>
+                                                    <span className="minus"><FaMinus/></span>
+                                                    <span className="qty"> 1 </span>
+                                                    <span className="plus"><FaPlus/></span>
                                                 </p>
                                             </div>
                                         </div>

@@ -1,7 +1,6 @@
 import React,{ Component } from 'react';
 import dchannel from './../img/dchannel.jpg';
 import { Link } from 'react-router-dom';
-
 class Login extends Component {
 
     constructor() {
