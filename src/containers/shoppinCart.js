@@ -24,7 +24,7 @@ class ShoppinCart extends Component{
                                         </div>
                                         <div className="info">
                                             <p>Coffee 1</p>
-                                            <p>cosmetice description cosmetic</p>
+                                            <p className="des">cosmetice description cosmetic</p>
                                             <div className="max-qty">
                                                 <p className="price float-left">Ks - 30000</p>
                                                 <p className="add-qty float-right">

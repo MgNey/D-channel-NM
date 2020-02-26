@@ -3,20 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c50cf19b-989f-4039-b178-6279a10aefc5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/dashoboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/dashoboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/history.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/history.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/orderDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/orderDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/orders.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/register.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/shoppinCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/shoppinCart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +37,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../font-awesome" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -178,7 +166,10 @@
       <workItem from="1582273805113" duration="12363000" />
       <workItem from="1582418080030" duration="76000" />
       <workItem from="1582419913467" duration="9966000" />
-      <workItem from="1582433984086" duration="3592000" />
+      <workItem from="1582433984086" duration="4191000" />
+      <workItem from="1582451244622" duration="1779000" />
+      <workItem from="1582624721798" duration="1215000" />
+      <workItem from="1582724259313" duration="1239000" />
     </task>
     <servers />
   </component>
@@ -217,10 +208,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1581575999667" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1582423387602">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1582455628482">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582423387602" />
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582455628482" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
